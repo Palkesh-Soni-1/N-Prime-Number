@@ -101,6 +101,7 @@ body{
     cursor: pointer;
     color: white;
 }
+/* making it responsive */
 @media screen and (max-width : 900px){
 
     .full{

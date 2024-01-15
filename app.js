@@ -33,7 +33,8 @@ search.onclick = function () {
         // document.getElementById("array").style.color = "red";
     }
 }
-// var input1 = document.getElementById("input1").value
+
+//for checking prime number
 search1.onclick = function () {
     console.log("clicked")
     var input1 = document.getElementById("input1").value
@@ -60,3 +61,4 @@ search1.onclick = function () {
             }
     }
 }
+
