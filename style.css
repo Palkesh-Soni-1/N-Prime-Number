@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #073535;
+}
+#demo{
+    width: 100%;
+    height: 100vh;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    font-size: 5rem;
+    color:#E28413;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+}
+#input{
+    font-size: 2rem;
+    padding: 1rem;
+    /* border: 2px solid  #F3FFB6; */
+    border: none;
+    outline: none;
+    /* color:  #F3FFB6; */
+    background-color:  #F3FFB6;
+    border: 2px solid #E28413;
+}
+#search{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #E28413;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+#search:hover{
+    font-size: 2rem;
+    padding: 1rem;
+    background: none;
+    border: 2px solid  #F3FFB6;
+    cursor: pointer;
+    color: white;
+}
+#demo{
+    font-size: 2rem;
+    margin: 5rem;
+    width: 100%;
+    height: 15vh;
+    color:#E28413;
+}
+.full{
+    margin: 10rem;
+}
+#array {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    line-height: 3rem;
+    color: #F3FFB6;
+}
+@media screen and (max-width : 900px){
+
+    .full{
+        margin: 0rem;
+    }
+    #heading{
+        margin-top:10rem;
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+    }
+    #main{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        margin: 1rem;
+    }
+    #input{
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+    }
+    #search{
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #search:hover{
+        font-size: 1rem;
+        padding: 1rem;
+        background: none;
+        border: 2px solid  #F3FFB6;
+        cursor: pointer;
+        color: white;
+    }
+    #demo{
+        font-size: 1.5rem;
+        margin: 0rem;
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+    }
+    #array {
+        /* margin-top: 1rem; */
+        /* margin: 1rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    
+}
