@@ -68,6 +68,39 @@ body{
     line-height: 3rem;
     color: #F3FFB6;
 }
+#check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+}
+#input1{
+    font-size: 2rem;
+    padding: 1rem;
+    /* border: 2px solid  #F3FFB6; */
+    border: none;
+    outline: none;
+    /* color:  #F3FFB6; */
+    background-color:  #F3FFB6;
+    border: 2px solid #E28413;
+}
+#search1{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #E28413;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+#search1:hover{
+    font-size: 2rem;
+    padding: 1rem;
+    background: none;
+    border: 2px solid  #F3FFB6;
+    cursor: pointer;
+    color: white;
+}
 @media screen and (max-width : 900px){
 
     .full{
@@ -98,6 +131,32 @@ body{
         margin-top: 10px;
     }
     #search:hover{
+        font-size: 1rem;
+        padding: 1rem;
+        background: none;
+        border: 2px solid  #F3FFB6;
+        cursor: pointer;
+        color: white;
+    }
+    #check{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+        margin: 1rem;
+    }
+    #input1{
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+    }
+    #search1{
+        font-size: 1rem;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #search1:hover{
         font-size: 1rem;
         padding: 1rem;
         background: none;
