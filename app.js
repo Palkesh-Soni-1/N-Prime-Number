@@ -49,7 +49,7 @@ search1.onclick = function () {
 
     else {
             let flag = 1;
-            for (let j = 2; j*j < input1; j++) {
+            for (let j = 2; j*j <= input1; j++) {
                 if(input1%j==0)
                 flag = 0;
             }
